@@ -2,10 +2,13 @@ package networkflow;
 
 public class Main {
     public static void main(String[] args) {
-        MoveZeros rv = new MoveZeros();
-        int[] nums = {0, 1, 0, 3, 12};
+        avgodd rv = new avgodd();
+        PrintStars ps = new PrintStars();
+        ps.printRightTriangle(10);
+        int[] nums = {5, 1, 2, 3, 12};
         char ch = 'x';
-        rv.move(nums);
+        rv.find(nums);
         System.out.println(java.util.Arrays.toString(nums)); // Output: [l, e, o, t, c, e, d, e]
+
     }
 }
